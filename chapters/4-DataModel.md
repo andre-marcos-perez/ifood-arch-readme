@@ -2,7 +2,7 @@
 
 | Previous                              | Current        | Next | Beginning              |
 | ------------------------------------- | -------------- | ---- | ---------------------- |
-| [3 - Applications](3-Applications.md) | 4 - Data Model | ---- | [Readme](../README.md) |
+| [3 - Applications](3-Applications.md) | 4 - Data Model | ---  | [Readme](../README.md) |
 
 ---
 
