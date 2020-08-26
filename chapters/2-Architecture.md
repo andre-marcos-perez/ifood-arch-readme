@@ -21,22 +21,22 @@
 
 ![ifood-arch](../media/ifood-arch.png)
 
-### <a></a> 2.2 - Orchestration Layer
+### <a></a>2.2 - Orchestration Layer
 
 TODO
 
-### <a></a> 2.3 - Stage #1: Raw Processing
+### <a></a>2.3 - Stage #1: Raw Processing
 
 TODO
 
-### <a></a> 2.4 - Stage #2: Trusted Processing
+### <a></a>2.4 - Stage #2: Trusted Processing
 
 TODO
 
-### <a></a> 2.5 - Stage #3: Observability Processing
+### <a></a>2.5 - Stage #3: Observability Processing
 
 TODO
 
-### <a></a> 2.6 - Visualization Layer
+### <a></a>2.6 - Visualization Layer
 
 TODO
