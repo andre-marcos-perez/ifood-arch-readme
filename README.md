@@ -1,6 +1,6 @@
 # iFood Arch - Readme
 
-> This project is the documentation of my solution for the **[iFood Data Architect Test](https://github.com/ifood/ifood-data-architect-test)**.
+> The application is the documentation of my solution for the **[iFood data architect test](https://github.com/ifood/ifood-data-architect-test)**.
 
 ## TL;DR
 
@@ -14,7 +14,7 @@
   - [2.2 - Orchestration Layer](chapters/2-Architecture.md#22---orchestration-layer)
   - [2.3 - Stage #1: Raw Processing](chapters/2-Architecture.md#23---stage-1-raw-processing)
   - [2.4 - Stage #2: Trusted Processing](chapters/2-Architecture.md#24---stage-2-trusted-processing)
-  - [2.5 - Stage #3: Observability Processing](chapters/2-Architecture.md#25---stage-3-observability-processing)
+  - [2.5 - Stage #3: Measure Processing](chapters/2-Architecture.md#25---stage-3-measure-processing)
   - [2.6 - Visualization Layer](chapters/2-Architecture.md#26---visualization-layer)
 - [**3 - Applications**](chapters/3-Applications.md)
   - [3.1 - iFood Arch Lambda ETL](chapters/3-Applications.md#31---ifood-arch-lambda-etl)
@@ -33,7 +33,11 @@
 
 ### <a></a>A - Links
 
-TODO
+- **Applications**
+
+ - **[iFood Arch Lambda ETL](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks;
+ - **[iFood Arch EMR ETL](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - Serverless application to perform high volume ETL tasks;
+ - **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts;
 
 ### <a></a>B - Connections
 
