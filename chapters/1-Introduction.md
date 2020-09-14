@@ -15,6 +15,14 @@
 
 ### <a></a>1.1 - Overview
 
+The proposed solution is a cloud native architecture built on **[Amazon Web Services](https://aws.amazon.com/pt/)**. It 
+leverages **AWS CloudWatch** and **AWS Step Functions** for orchestration, pairs **AWS Lambda** and **AWS EMR** as 
+computing units, uses **AWS RDS** and **AWS s3** as persistence layers and **AWS Athena** and **AWS Redshift** as query
+engines. The solution focus more on low cost execution rather than performance and seeks to fill business need by 
+leveraging data partition.   
+
+![ifood-arch](../media/ifood-arch.png)
+
 ### <a></a>1.2 - Features
 
 - **Business**
