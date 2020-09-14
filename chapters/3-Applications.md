@@ -16,12 +16,12 @@
 
 ### <a></a>3.1 - iFood Arch Lambda ETL
 
-TODO
+> **[iFood Arch Lambda ETL](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks
 
 ### <a></a>3.2 - iFood Arch EMR ETL
 
-TODO
+> **[iFood Arch EMR ETL](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - Serverless application to perform high volume ETL tasks
 
 ### <a></a>3.3 - iFood Arch Infra
 
-TODO
+> **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
