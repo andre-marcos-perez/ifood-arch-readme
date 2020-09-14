@@ -17,11 +17,16 @@
 
 ### <a></a>4.1 - OLTP Database
 
-TODO
+The OLTP *ifood-arch-oltp-db* database follows a traditional entity-relationship modelling optimized for data size. It 
+is composed by an append only *tb_process* and two normalized auxiliary tables: *tb_job* and *tb_status*. Its query 
+definition and visual schema can be found **[here](https://github.com/andre-marcos-perez/ifood-arch-infra/tree/master/database/aws-rds)**.
 
 ### <a></a>4.2 - OLAP Database
 
-TODO
+The OLAP *ifood-arch-olap-db* database follows a dimensional modelling optimized for query speed. It is compose by three
+dimension tables (*dim_date*, *dim_status* and *dim_job*) and one fact table (*fact_process*). The fact granularity is 
+second and its numerical attribute is the amount of time in seconds (*duration_in_seconds*) a ETL process took to run. 
+Its query definition and visual schema can be found **[here](https://github.com/andre-marcos-perez/ifood-arch-infra/tree/master/database/aws-rds)**.
 
 ### <a></a>4.3 - Raw Data Layer
 
@@ -45,7 +50,7 @@ to know more.
 
 ### <a></a>4.4 - Trusted Data Layer
 
-The raw data layer is the pipeline data warehouse. Its data is a copy of the original data persisted in the Parquet 
+The trusted data layer is the pipeline data warehouse. Its data is a copy of the original data persisted in the Parquet 
 format in a partitioned fashion. The strategy allows favours geographical analysis to be efficiently performed since the 
 consumer behaviour can vary between regions. The timestamp partition avoids shuffling to much data in **AWS Redshift** 
 analytical queries, speeding up the analysis and reducing costs.
