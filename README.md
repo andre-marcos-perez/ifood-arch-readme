@@ -2,6 +2,15 @@
 
 > The application is the documentation of my solution for the **[iFood data architect test](https://github.com/ifood/ifood-data-architect-test)**.
 
+![aws-emr](https://img.shields.io/badge/aws-emr-blue)
+![aws-lambda](https://img.shields.io/badge/aws-lambda-blue)
+![aws-s3](https://img.shields.io/badge/aws-s3-red)
+![aws-rds](https://img.shields.io/badge/aws-rds-red)
+![aws-athena](https://img.shields.io/badge/aws-athena-green)
+![aws-redshift](https://img.shields.io/badge/aws-redshift-green)
+![aws-stepfunctions](https://img.shields.io/badge/aws-stepfunctions-yellow)
+![aws-cloudwatch](https://img.shields.io/badge/aws-cloudwatch-yellow)
+
 ## TL;DR
 
 ![ifood-arch](media/ifood-arch.png)
