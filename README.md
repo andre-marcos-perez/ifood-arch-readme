@@ -9,6 +9,8 @@
 ## Contents
 
 - [**1 - Introduction**](chapters/1-Introduction.md)
+  - [1.1 - Overview](chapters/1-Introduction.md#11---overview)
+  - [1.2 - Features](chapters/1-Introduction.md#12---features)
 - [**2 - Architecture**](chapters/2-Architecture.md)
   - [2.1 - Overview](chapters/2-Architecture.md#21---overview)
   - [2.2 - Orchestration Layer](chapters/2-Architecture.md#22---orchestration-layer)

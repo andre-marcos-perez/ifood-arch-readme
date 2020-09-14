@@ -21,20 +21,12 @@ The OLTP *ifood-arch-oltp-db* database follows a traditional entity-relationship
 is composed by an append only *tb_process* and two normalized auxiliary tables: *tb_job* and *tb_status*. Its query 
 definition and visual schema can be found **[here](https://github.com/andre-marcos-perez/ifood-arch-infra/tree/master/database/aws-rds)**.
 
-- Related projects:
-
-> **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
-
 ### <a></a>4.2 - OLAP Database
 
 The OLAP *ifood-arch-olap-db* database follows a dimensional modelling optimized for query speed. It is compose by three
 dimension tables (*dim_date*, *dim_status* and *dim_job*) and one fact table (*fact_process*). The fact granularity is 
 second and its numerical attribute is the amount of time in seconds (*duration_in_seconds*) a ETL process took to run. 
 Its query definition and visual schema can be found **[here](https://github.com/andre-marcos-perez/ifood-arch-infra/tree/master/database/aws-rds)**.
-
-- Related projects:
-
-> **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
 
 ### <a></a>4.3 - Raw Data Layer
 
@@ -56,10 +48,6 @@ to know more.
 - **Raw Consumer**: customer_phone_area;
 - **Raw Restaurant**: merchant_country and merchant_state.
 
-- Related projects:
-
-> **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
-
 ### <a></a>4.4 - Trusted Data Layer
 
 The trusted data layer is the pipeline data warehouse. Its data is a copy of the original data persisted in the Parquet 
@@ -77,7 +65,3 @@ to know more.
 - **Trusted Items**: timestamp;
 - **Trusted Orders**: delivery_address_country, delivery_address_state and timestamp;
 - **Trusted Statuses**: timestamp.
-
-- Related projects:
-
-> **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
