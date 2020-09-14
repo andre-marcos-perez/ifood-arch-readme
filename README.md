@@ -28,12 +28,14 @@
 - [**Appendix**](#appendix)
   - [A - Links](#a---links)
   - [B - Connections](#b---connections)
+  - [C - Author](#c---authors)
 
 ## <a></a>Appendix
 
 ### <a></a>A - Links
 
 - **Applications**
+
   - **[iFood Arch Lambda ETL](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks;
   - **[iFood Arch EMR ETL](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - Serverless application to perform high volume ETL tasks;
   - **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts;
@@ -41,3 +43,7 @@
 ### <a></a>B - Connections
 
 TODO
+
+### <a></a>C - Authors
+
+- **Andre Perez** - **[twitter](https://twitter.com/dekoperez)** - **[email](mailto:andre.marcos.perez@gmail.com)**
