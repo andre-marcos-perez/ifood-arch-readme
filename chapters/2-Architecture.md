@@ -53,7 +53,9 @@ bucket *ifood-arch-raw*. At the end, **AWS Athena** is plugged into **AWS s3** r
 - Related projects:
 
 > **[iFood Arch Lambda ETL](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks;
+
 > **[iFood Arch EMR ETL](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - Serverless application to perform high volume ETL tasks;
+
 > **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
 
 ### <a></a>2.4 - Stage #2: Trusted Processing
@@ -68,7 +70,9 @@ caching layer for **AWS s3**, slightly reducing its performance but greatly savi
 - Related projects:
 
 > **[iFood Arch Lambda ETL](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks;
+
 > **[iFood Arch EMR ETL](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - Serverless application to perform high volume ETL tasks;
+
 > **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
 
 ### <a></a>2.5 - Stage #3: Measure Processing
@@ -81,6 +85,7 @@ layer of observability to the pipeline.
 - Related projects:
 
 > **[iFood Arch Lambda ETL](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks;
+
 > **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
 
 ### <a></a>2.6 - Visualization Layer
@@ -90,3 +95,7 @@ bucket to allow on demand *ad hoc* queries. The **AWS Redshift Spectrum** is plu
 bucket to allow on demand analytics queries. It is proposed (but not implemented) the visualization software **[Redash](https://redash.io/)**
 to allow **AWS Athena** and **AWS Redshift** queries for external users plus a dashboard built upon the **AWS RDS** 
 *ifood-arch-olap-db* database.
+
+- Related projects:
+
+> **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts
