@@ -28,9 +28,9 @@
   - [2.5 - Stage #3: Measure Processing](chapters/2-Architecture.md#25---stage-3-measure-processing)
   - [2.6 - Visualization Layer](chapters/2-Architecture.md#26---visualization-layer)
 - [**3 - Applications**](chapters/3-Applications.md)
-  - [3.1 - iFood Arch Lambda ETL](chapters/3-Applications.md#31---ifood-arch-lambda-etl)
-  - [3.2 - iFood Arch EMR ETL](chapters/3-Applications.md#32---ifood-arch-emr-etl)
-  - [3.3 - iFood Arch Infra](chapters/3-Applications.md#33---ifood-arch-infra)
+  - [3.1 - iFood Arch Lambda ETL (Private)](chapters/3-Applications.md#31---ifood-arch-lambda-etl)
+  - [3.2 - iFood Arch EMR ETL (Private)](chapters/3-Applications.md#32---ifood-arch-emr-etl)
+  - [3.3 - iFood Arch Infra (Private)](chapters/3-Applications.md#33---ifood-arch-infra)
 - [**4 - Data Model**](chapters/4-DataModel.md)
   - [4.1 - OLTP Database](chapters/4-DataModel.md#41---oltp-database)
   - [4.2 - OLAP Database](chapters/4-DataModel.md#42---olap-database)
@@ -44,10 +44,12 @@
 
 ### <a></a>A - Applications
 
-  - **[iFood Arch Lambda ETL](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks;
-  - **[iFood Arch EMR ETL](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - Serverless application to perform high volume ETL tasks;
-  - **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts;
+  - **[iFood Arch Lambda ETL (Private)](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks;
+  - **[iFood Arch EMR ETL (Private)](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - Serverless application to perform high volume ETL tasks;
+  - **[iFood Arch Infra (Private)](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts.
+  
+**Note**: All applications are private since they contain sensitive data. To ask for a read permission, please use the contact info bellow.
 
-### <a></a>B - Authors
+### <a></a>B - Author
 
 - **Andre Perez** - **[twitter](https://twitter.com/dekoperez)** - **[email](mailto:andre.marcos.perez@gmail.com)**
