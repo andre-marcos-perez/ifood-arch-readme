@@ -44,11 +44,11 @@
 
 ### <a></a>A - Applications
 
-  - **[iFood Arch Lambda ETL (Private)](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - Serverless application to inexpensively perform orchestration tasks;
-  - **[iFood Arch EMR ETL (Private)](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - Serverless application to perform high volume ETL tasks;
-  - **[iFood Arch Infra (Private)](https://github.com/andre-marcos-perez/ifood-arch-infra)** - Application to centre infrastructure related scripts.
+  - **[iFood Arch Lambda ETL](https://github.com/andre-marcos-perez/ifood-arch-lambda-etl)** - (Private) - Serverless application to inexpensively perform orchestration tasks;
+  - **[iFood Arch EMR ETL](https://github.com/andre-marcos-perez/ifood-arch-emr-etl)** - (Private) - Serverless application to perform high volume ETL tasks;
+  - **[iFood Arch Infra](https://github.com/andre-marcos-perez/ifood-arch-infra)** - (Private) - Application to centre infrastructure related scripts.
   
-**Note**: All applications are private since they contain sensitive data. To ask for a read permission, please use the contact info bellow.
+**Note**: All applications are **private** since they contain sensitive data. To ask for a read permission, please use the contact info bellow.
 
 ### <a></a>B - Author
 
